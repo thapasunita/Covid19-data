@@ -58,7 +58,7 @@ class App extends React.Component {
       return (
         <div>
           <div class='container'>
-            <p style={{ textAlign: 'center' }}>COVID-19 CORONAVIRUS PANDEMIC</p>
+            <p style={{ textAlign: 'center' }}>COVID-19 CORONAVIRUS PANDEMIC DATA</p>
             <div className='wrapper'>
               <div className='worldData'>
                 <div>
@@ -92,7 +92,7 @@ class App extends React.Component {
             </div>
 
 
-            <table class="table table-hover">
+            <table class="table table-hover mt-5">
               {this.getTableHead()}
               <tbody>
                 {tableRowList}

@@ -20,26 +20,34 @@ table, td, th{
     100% { transform: rotate(360deg); }
   }
   .wrapper{
+    background-image:
+    linear-gradient(to right, rgba(26, 25, 25, 0.457), rgba(0, 0, 0, 0.77)),
+    url('https://images.unsplash.com/photo-1583324113626-70df0f4deaab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGNvdmlkJTIwMTl8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60');
     height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
   .container p{
     font-size: 20px;
-    background-color: rgb(227, 227, 227);
+    background-color: #8ACA2B;
     padding: 10px;
   }
   .worldData{
     height: auto;
     width: 90%;
     text-align: center;
+    color: white;
   }
   .worldData >div{
     padding-top: 70px;
   }
   .worldData > div h1{
     color: #8ACA2B;
+    padding-bottom: 10px;
   }
   .newCase{
     background-color: #FFEEAA;
